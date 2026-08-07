@@ -38,19 +38,19 @@ class KurobbsClient:
         self.session = requests.Session()
         self.session.headers.update(
             {
-                "osversion": "Android",
-                "devcode": "2fba3859fe9bfe9099f2696b8648c2c6",
+                "osversion": "18.7.8",
+                "devcode": "4505A901-29E1-45FC-B01A-01A3DBC34401",
                 "countrycode": "CN",
                 "ip": "10.0.2.233",
-                "model": "2211133C",
-                "source": "android",
+                "model": "iPhone12,1",
+                "source": "ios",
                 "lang": "zh-Hans",
-                "version": "1.0.9",
+                "version": "3.1.4",
                 "versioncode": "1090",
                 "token": self.token,
                 "content-type": "application/x-www-form-urlencoded; charset=utf-8",
-                "accept-encoding": "gzip",
-                "user-agent": "okhttp/3.10.0",
+                "accept-encoding": "gzip, deflate, br",
+                "user-agent": "KuroGameBox/20260706191836 CFNetwork/3826.600.41.2.1 Darwin/24.6.0",
             }
         )
         self.result: Dict[str, str] = {}
